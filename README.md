@@ -4,17 +4,17 @@
     <a target="_blank" href="https://github.com/docker/compose"><img src="https://badgen.net/badge/icon/docker%20compose?icon=docker&label" /></a>
     <a target="_blank" href="https://www.reddit.com/r/selfhosted"><img src="https://badgen.net/badge/icon/r%2fselfhosted?icon=reddit&label&color=red" /></a><p>
     <!--<a target="_blank" href="#"><img src="https://ForTheBadge.com/images/badges/makes-people-smile.svg" /></a><br>-->
-    <a target="_blank" href="https://github.com/Haxxnet/Compose-Examples/stargazers"><img src="https://img.shields.io/github/stars/Haxxnet/Compose-Examples.svg?style=social&label=Star" /></a>
-    <a target="_blank" href="https://github.com/Haxxnet/Compose-Examples/network/members"><img src="https://img.shields.io/github/forks/Haxxnet/Compose-Examples.svg?style=social&label=Fork" /></a>
-    <a target="_blank" href="https://github.com/Haxxnet/Compose-Examples/watchers"><img src="https://img.shields.io/github/watchers/Haxxnet/Compose-Examples.svg?style=social&label=Watch" /></a><p>
-       <a target="_blank" href="https://github.com/Haxxnet/Compose-Examples/tree/main/examples"><img src="https://img.shields.io/github/directory-file-count/Haxxnet/Compose-Examples/examples?label=Compose%20Examples&style=for-the-badge.svg" /></a><br>
+    <a target="_blank" href="https://github.com/ecampuslearning/app-containers/stargazers"><img src="https://img.shields.io/github/stars/ecampuslearning/app-containers.svg?style=social&label=Star" /></a>
+    <a target="_blank" href="https://github.com/ecampuslearning/app-containers/network/members"><img src="https://img.shields.io/github/forks/ecampuslearning/app-containers.svg?style=social&label=Fork" /></a>
+    <a target="_blank" href="https://github.com/ecampuslearning/app-containers/watchers"><img src="https://img.shields.io/github/watchers/ecampuslearning/app-containers.svg?style=social&label=Watch" /></a><p>
+       <a target="_blank" href="https://github.com/ecampuslearning/app-containers/tree/main/examples"><img src="https://img.shields.io/github/directory-file-count/ecampuslearning/app-containers/examples?label=Compose%20Examples&style=for-the-badge.svg" /></a><br>
     <a target="_blank" href="https://github.com/l4rm4nd"><img src="https://img.shields.io/badge/maintainer-LRVT-orange" /></a>
-    <a target="_blank" href="https://GitHub.com/Haxxnet/Compose-Examples/graphs/contributors/"><img src="https://img.shields.io/github/contributors/Haxxnet/Compose-Examples.svg" /></a>
-    <a target="_blank" href="https://github.com/Haxxnet/Compose-Examples/actions"><img src="https://github.com/Haxxnet/Compose-Examples/actions/workflows/validator.yml/badge.svg" /></a><br>
-    <a target="_blank" href="https://github.com/Haxxnet/Compose-Examples/issues/new/choose"><img src="https://img.shields.io/badge/PRs+Issues-welcome-brightgreen.svg?style=flat-square" /></a>
-    <a target="_blank" href="https://GitHub.com/Haxxnet/Compose-Examples/commits/"><img src="https://img.shields.io/github/last-commit/Haxxnet/Compose-Examples.svg" /></a>
-    <a target="_blank" href="https://GitHub.com/Haxxnet/Compose-Examples/issues/"><img src="https://img.shields.io/github/issues/Haxxnet/Compose-Examples.svg" /></a>
-    <a target="_blank" href="https://github.com/Haxxnet/Compose-Examples/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/Haxxnet/Compose-Examples.svg" /></a><p>
+    <a target="_blank" href="https://GitHub.com/ecampuslearning/app-containers/graphs/contributors/"><img src="https://img.shields.io/github/contributors/ecampuslearning/app-containers.svg" /></a>
+    <a target="_blank" href="https://github.com/ecampuslearning/app-containers/actions"><img src="https://github.com/ecampuslearning/app-containers/actions/workflows/validator.yml/badge.svg" /></a><br>
+    <a target="_blank" href="https://github.com/ecampuslearning/app-containers/issues/new/choose"><img src="https://img.shields.io/badge/PRs+Issues-welcome-brightgreen.svg?style=flat-square" /></a>
+    <a target="_blank" href="https://GitHub.com/ecampuslearning/app-containers/commits/"><img src="https://img.shields.io/github/last-commit/ecampuslearning/app-containers.svg" /></a>
+    <a target="_blank" href="https://GitHub.com/ecampuslearning/app-containers/issues/"><img src="https://img.shields.io/github/issues/ecampuslearning/app-containers.svg" /></a>
+    <a target="_blank" href="https://github.com/ecampuslearning/app-containers/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/ecampuslearning/app-containers.svg" /></a><p>
     <a href="https://www.buymeacoffee.com/LRVT" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 </div>
 
@@ -30,7 +30,7 @@
 
 Otherwise, it should be a matter of:
 ````
-git clone https://github.com/Haxxnet/Compose-Examples && cd Compose-Examples
+git clone https://github.com/ecampuslearning/app-containers && cd app-containers
 cd <container-of-interest>
 
 # read the notes, comments and adjust compose + volumes + configs
@@ -117,7 +117,7 @@ A [proxy](https://en.wikipedia.org/wiki/Proxy_server) is a server application th
 
 - [Authelia](examples/authelia) - Authelia is an open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal. It acts as a companion for reverse proxies by allowing, denying, or redirecting requests. Recommended to combine with [Traefik](examples/traefik).
 - [Authentik](examples/authentik) - Authentik is an open-source Identity Provider focused on flexibility and versatility.
-- [Keycloak](https://github.com/keycloak/keycloak-containers/tree/main/docker-compose-examples) - Keycloak is an open-source Identity and Access Management (IAM) solution for modern applications and services.
+- [Keycloak](https://github.com/keycloak/keycloak-containers/tree/main/docker-app-containers) - Keycloak is an open-source Identity and Access Management (IAM) solution for modern applications and services.
 - [lldap](examples/lldap) - lldap is a lightweight authentication server that provides an opinionated, simplified LDAP interface for authentication. It integrates with many backends, from KeyCloak to Authelia to Nextcloud and more.
 
 ### Virtual Private Network (VPN) & Remote Access
@@ -431,12 +431,12 @@ Software that does not fit in another section.
 - [IT-Tools](examples/it-tools) - Collection of handy online tools for developers, with great UX.
 
 ## 🌟 Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=Haxxnet/Compose-Examples&type=Date)](https://star-history.com/#Haxxnet/Compose-Examples&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ecampuslearning/app-containers&type=Date)](https://star-history.com/#ecampuslearning/app-containers&Date)
 
 ## 🧑‍🤝‍🧑 Join the Community!
 
 Many thanks to all contributors that help maintaining and improving this repo:
 
-<a href="https://github.com/Haxxnet/Compose-Examples/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Haxxnet/Compose-Examples" />
+<a href="https://github.com/ecampuslearning/app-containers/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ecampuslearning/app-containers" />
 </a>
